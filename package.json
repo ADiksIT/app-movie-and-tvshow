@@ -1,0 +1,23 @@
+{
+  "name": "kinoflexhd",
+  "version": "1.0.0",
+  "description": "app for movie and tv show",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADiksIT/app-movie-and-tvshow.git"
+  },
+  "keywords": [
+    "js",
+    "webpack",
+    "pure-js",
+    "movie",
+    "api",
+    "movieDB"
+  ],
+  "author": "Anton Andrusenko <antondikson@gmail.com>",
+  "license": "ISC"
+}
