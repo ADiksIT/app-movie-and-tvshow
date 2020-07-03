@@ -1,3 +1,5 @@
+import { createFooter } from './createFooter';
+
 export class Footer {
   constructor() {
     this.root = null;
