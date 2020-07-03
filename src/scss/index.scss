@@ -696,6 +696,17 @@ span.tv-card__date {
 
 }
 
+.footer {
+    background-color: #24292e;
+    max-height: 100px;
+    text-align: center;
+    padding: 10px 0;
+
+    img {
+        width: 50px;
+    }
+}
+
 @media (max-width: 1024px) {
     .container {
         padding: 0 60px;

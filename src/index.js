@@ -3,8 +3,9 @@ import { Header } from './components/header/Header';
 import { Menu } from './components/menu/Menu';
 import { Body } from './components/body/Body';
 import { Main } from './components/main/Main';
+import { Footer } from './components/footer/Footer';
 
 const app = document.querySelector('#app');
-const main = new Main(app, { components: [Header, Menu, Body] });
+const main = new Main(app, { components: [Header, Menu, Body, Footer] });
 
 main.render();
