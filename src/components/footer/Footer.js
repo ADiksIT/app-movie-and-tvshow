@@ -6,7 +6,7 @@ export class Footer {
   }
   render(root) {
     this.root = root;
-    this.root.insertAdjacentHTML('beforeend', createFooter());
+    this.root.insertAdjacentHTML('beforeend');
     return this.root;
   }
   initListener() {}
