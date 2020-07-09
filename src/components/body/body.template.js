@@ -1,6 +1,5 @@
 /* eslint-disable camelcase */
 function createTVCard(data) {
-  console.log(data);
   const {
     id,
     title,
@@ -12,7 +11,7 @@ function createTVCard(data) {
 
   return `
   	<li class="tv-shows__item">
-  		<a href="#" class="tv-card" data-tv="${id}">
+  		<a href="#tv/${id}" class="tv-card" data-tv="${id}">
 			  <span class="tv-card__vote">${vote_average}</span>
 			  <span class="tv-card__date">${release_date}</span>
   			<img class="tv-card__img"

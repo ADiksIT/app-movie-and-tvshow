@@ -1,11 +1,13 @@
 import './scss/index.scss';
-import { Header } from './components/header/Header';
-import { Menu } from './components/menu/Menu';
-import { Body } from './components/body/Body';
-import { Main } from './components/main/Main';
-import { Footer } from './components/footer/Footer';
+import { Router } from './router/Router';
+import { MainPage } from './pages/MainPage';
+import { MovieHomePage } from './pages/MovieHomePage';
 
 const app = document.querySelector('#app');
-const main = new Main(app, { components: [Header, Menu, Body, Footer] });
 
-main.render();
+const router = new Router(app, {
+  main: MainPage,
+  movie: MovieHomePage,
+});
+
+router.init();
