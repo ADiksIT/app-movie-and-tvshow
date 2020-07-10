@@ -7,7 +7,7 @@ export class Main {
     this.request = new Request();
   }
   render() {
-    this.components.forEach((Component) => {
+    this.components = this.components.map((Component) => {
       const component = new Component(this.request);
       const rootChild = document.createElement(component.tag);
       rootChild.classList.add(component.classTag);
