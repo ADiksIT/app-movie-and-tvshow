@@ -459,7 +459,7 @@ main {
 }
 
 .tv-card {
-
+    border-radius: 15px;
     position: relative;
     max-width: 265px;
     min-width: 266px;
@@ -500,7 +500,8 @@ main {
 } */
 .tv-card__vote {
     position: absolute;
-    top: 18px;
+    top: 340px;
+    left: 0px;
     text-align: center;
     color: #FFFFFF;
     background-color: #FF637D;
@@ -527,6 +528,7 @@ span.tv-card__date {
 
 .tv-card__img {
     /* overflow: hidden; */
+    border-radius: 15px;
     height: 355px;
     width: 285px;
     transition: all 2s;
@@ -1247,5 +1249,6 @@ div:after {
         background-color: #00838f;
     }
 }
+
 
 // @import 'media.scss';
