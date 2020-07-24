@@ -3,7 +3,7 @@ export function createHeader() {
 	<div class="container header-flex">
 		<hgroup class="title-wrapper">
 			<h1 class="title">KinoFlexHD</h1>
-			<h2 class="subtitle">все о фильмах и сериалах</h2>
+			<h2 class="subtitle">все о фильмах</h2>
 		</hgroup>
 
 		<section class="search">

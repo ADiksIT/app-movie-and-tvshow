@@ -1,0 +1,62 @@
+{
+	"adult": false,
+	"backdrop_path": "/jKquaxnCRelAbibZVMdTsUEnkKm.jpg",
+	"belongs_to_collection": {
+		"id": 10,
+		"name": "Звёздные войны (Коллекция)",
+		"poster_path": "/y6kKwGLCCy3MMbBdUnxB3afIfsd.jpg",
+		"backdrop_path": "/d8duYyyC9J5T825Hg7grmaabfxQ.jpg"
+	},
+	"budget": 11000000,
+	"genres": [{
+			"id": 12,
+			"name": "приключения"
+		},
+		{
+			"id": 28,
+			"name": "боевик"
+		},
+		{
+			"id": 878,
+			"name": "фантастика"
+		}
+	],
+	"homepage": "http://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
+	"id": 11,
+	"imdb_id": "tt0076759",
+	"original_language": "en",
+	"original_title": "Star Wars",
+	"overview": "Татуин. Планета-пустыня. Уже постаревший рыцарь Джедай Оби Ван Кеноби спасает молодого Люка Скайуокера, когда тот пытается отыскать пропавшего дроида. С этого момента Люк осознает свое истинное назначение: он один из рыцарей Джедай. В то время как гражданская война охватила галактику, а войска повстанцев ведут бои против сил злого Императора, к Люку и Оби Вану присоединяется отчаянный пилот-наемник Хан Соло, и в сопровождении двух дроидов, R2D2 и C-3PO, этот необычный отряд отправляется на поиски предводителя повстанцев — принцессы Леи.",
+	"popularity": 60.394,
+	"poster_path": "/291yZULc4NBE9QDxqHGAJUk41j7.jpg",
+	"production_companies": [{
+			"id": 1,
+			"logo_path": "/o86DbpburjxrqAzEDhXZcyE8pDb.png",
+			"name": "Lucasfilm Ltd.",
+			"origin_country": "US"
+		},
+		{
+			"id": 25,
+			"logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+			"name": "20th Century Fox",
+			"origin_country": "US"
+		}
+	],
+	"production_countries": [{
+		"iso_3166_1": "US",
+		"name": "United States of America"
+	}],
+	"release_date": "1977-05-25",
+	"revenue": 775398007,
+	"runtime": 121,
+	"spoken_languages": [{
+		"iso_639_1": "en",
+		"name": "English"
+	}],
+	"status": "Released",
+	"tagline": "",
+	"title": "Звёздные войны: Эпизод IV – Новая надежда",
+	"video": false,
+	"vote_average": 8.2,
+	"vote_count": 13918
+}

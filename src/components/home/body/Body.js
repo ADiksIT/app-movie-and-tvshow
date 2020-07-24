@@ -9,6 +9,7 @@ export class Body {
   }
   render(root) {
     this.root = root;
+    // https://api.themoviedb.org/3/trending/movie/week?api_key=0b8be952d386c4f1fbbd65b0fc2b8d47&language=ru
     this.request.getData('../../test.json').then((r) => {
       this.root.insertAdjacentHTML('beforeend', createBody(r || {}));
     });
@@ -16,10 +17,9 @@ export class Body {
   }
 
   clickToCard({ target }) {
-    const id = target.closest('.tv-card').dataset.tv;
-    if (id) {
-      console.log(id);
-    }
+    // const id = target.closest('.tv-card').dataset.tv;
+    // // if (id) {
+    // // }
   }
 
   initListener() {
